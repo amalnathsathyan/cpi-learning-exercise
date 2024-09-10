@@ -4,7 +4,7 @@ This project demonstrates how to handle Cross-Program Invocations (CPI) in a Sol
 
 ## Features
 
-- Return values (`u64`, struct, and vector) through both CPI and direct calls
+- Return values (`u64`, `struct`, and `vec`) through both CPI and direct calls
 - Set and retrieve values via view functions
 - Handle mutable instructions via view
 
