@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("6f6v4DdeuUE3RexGw9AQeLoeCEfmNtt8bEjj4c1bdrMK");
+declare_id!("BJYS8QEhSCk4pgtn6oArSEYNScMeTJmrNCVAzsEHaba3");
 
 #[program]
 pub mod callee {
@@ -19,7 +19,7 @@ pub mod callee {
     }
 
     pub fn return_u64(_ctx: Context<CpiReturn>) -> Result<u64> {
-        Ok(25)
+        Ok(30)
     }
 
     pub fn return_struct(_ctx:Context<CpiReturn>) -> Result<StructReturn>{
@@ -28,7 +28,7 @@ pub mod callee {
     }
 
     pub fn return_vec(_ctx:Context<CpiReturn>) -> Result<Vec<i32>> {
-        Ok(vec![12,46,32,87])
+        Ok(vec![12,-46,32,87])
     }
 
     pub fn return_u64_from_account(ctx: Context<CpiReturn>) -> Result<u64> {

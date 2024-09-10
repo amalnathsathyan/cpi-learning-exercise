@@ -5,8 +5,8 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-callee = "6f6v4DdeuUE3RexGw9AQeLoeCEfmNtt8bEjj4c1bdrMK"
-caller = "CJM61yGpV49twdLQejfkuJrmvyrGrQzyFSFkYkPnqnaJ"
+callee = "BJYS8QEhSCk4pgtn6oArSEYNScMeTJmrNCVAzsEHaba3"
+caller = "esomF1ntZWPDcz2Epcry2z2tSKuzbcBSYye6MnMkHR1"
 cpi_returns = "AktkMCE43KeVyex5TvwCwkBqAqhh8wBdcyE5VK4gKei1"
 
 [registry]
